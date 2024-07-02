@@ -1,0 +1,17 @@
+body {
+    font-family: 'Arial', sans-serif;
+
+
+}
+
+#about {
+    margin-top: 2rem;
+}
+
+#portfolio .card {
+    transition: transform 0.2s;
+}
+
+#portfolio .card:hover {
+    transform: scale(1.05);
+}
