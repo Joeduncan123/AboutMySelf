@@ -9,6 +9,12 @@ body {
     justify-content: center;
 }
 
+.row
+{
+    flex-wrap: nowrap;
+    box-sizing: none;
+}
+
 #portfolio .card {
     transition: transform 0.2s;
 }
@@ -108,4 +114,20 @@ body {
 
 .zoomIn {
     animation-name: zoomIn;
+}
+.about__skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about__skill {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.5rem 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    background: #eee;
+    color: #3a3434;
+    border-radius: 5px;
+    font-weight: 500;
 }
