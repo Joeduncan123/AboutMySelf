@@ -131,3 +131,11 @@ body {
     border-radius: 5px;
     font-weight: 500;
 }
+
+.main-header__social-link-icon {
+    width: 2.5rem;
+}
+
+.form-control {
+    width: 50%
+}
